@@ -94,8 +94,8 @@ m6823 <- meta::metabin( event.e = N_EVENTS1, n.e = N_TOTAL1,
 m6823
 ```
 
-
 With replicability-analysis:
+
 ```{r forest_CD6823, fig.width=10, fig.height=3}
 m6823.ra <- metarep(x = m6823 , u = 2, t = 0.05, report.u.max = T )
 

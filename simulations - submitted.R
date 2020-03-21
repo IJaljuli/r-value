@@ -92,7 +92,6 @@ signal.mixture <- function(mu1 = 0 , mu2 = 0 , N1 = 0 , N2 = 0 ,
         }
       }
       
-      
       # To eliminate cases where all p-values are identically 0, we fix them at 10^-39. If this still doesn't work, resample data. 
       
       while( theres.an.error ){
