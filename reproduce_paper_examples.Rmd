@@ -8,7 +8,7 @@ output:
 The package `metarep` is an extension to the package `meta`, which allows incorporating replicability-analysis tools to quantify consistency and replicability of treatment effect estimates in a meta-analysis. The tool was proposed by Jaljuli et. al. (submitted) for the fixed-effect and for the random-effects meta-analyses, whith or without the common-effect assumption.  
 
 # Packages Instalation: 
-Currently, both `meta` and `metarep` packages can be downloaded from GitHub, therefore make sure that the package `devtools` is installed. `metarep` also requires the latest version of `meta` ( >= 4.11-0, available on `guithub` )
+Currently,  `metarep` can be downloaded from GitHub since is being processed by `CRAN`, therefore make sure that the package `devtools` is installed. `metarep` also requires the latest version of `meta` ( >= 4.11-0, available on `guithub` )
 
 Run the following commands in $console$ to install the packages: 
 ```{r instalation, eval=F}
